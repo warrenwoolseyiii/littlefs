@@ -26,6 +26,9 @@
 #include <string.h>
 #include <inttypes.h>
 
+// User defined header
+#include "../../application/logger.h"
+
 #ifndef LFS_NO_MALLOC
 #include <stdlib.h>
 #endif
