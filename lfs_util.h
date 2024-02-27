@@ -39,7 +39,7 @@
         !defined(LFS_NO_WARN) || \
         !defined(LFS_NO_ERROR) || \
         defined(LFS_YES_TRACE)
-#include <stdio.h>
+#include "../printf/printf.h"
 #endif
 
 #ifdef __cplusplus
